@@ -1,0 +1,71 @@
+.carousel-indicators li {
+	border: none;
+	background: #ccc;
+}
+
+.carousel-indicators li.active {
+	background: #28a745;
+}
+
+.media {
+	flex-direction: column !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+.img-thumbnail {
+    border: 3px solid #27DEBF!important;
+    height: 6rem!important;
+    width: 6rem!important;
+}
+
+.carousel .blockquote{
+    text-align: center!important;
+    margin-top: 1rem;
+}
+
+
+.carousel .user{
+    color: #151D41!important;
+    font-weight: bold;
+}
+
+.carousel .credentials{
+    color: #151D41!important;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 8px!important;
+    height: 8px!important;
+    border-radius: 50%!important;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000000!important;
+    background-clip: padding-box;
+    border:none!important;
+    opacity: 1!important;
+    transition: all 0.3s ease!important;
+}
+
+.carousel-indicators li.active {
+    background: #27DEBF!important;
+}
+
+.carousel .lead{
+    color: #151D41!important;
+    font-size: 1rem;
+    font-style: normal!important;
+    font-weight: 600!important;
+
+}
+
+.carousel .quote-icon{
+    font-family: 'Perpetua Titling MT', serif;
+    color: #27DEBF;
+    font-size: 8rem;
+    text-align: center;
+}
